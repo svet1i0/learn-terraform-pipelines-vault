@@ -1,9 +1,9 @@
 terraform {
   backend "remote" {
-    organization = "hashicorp-learn"
+    organization = "shared_devops_sandbox"
 
     workspaces {
-      name = "learn-terraform-pipelines-vault"
+      name = "terraform-pipelines-vault-gke"
     }
   }
   required_providers {
